@@ -1,0 +1,16 @@
+
+
+:root {
+    primary-color: #85b497;
+    secondary-color: #f8f9e2;
+}
+    
+.navbar *{
+    background-color:#f8f9e2;
+}
+
+body{
+    background-color : #85b497;
+    
+   
+}
