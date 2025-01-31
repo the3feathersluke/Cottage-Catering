@@ -9,9 +9,6 @@
     --secondary-text: #f5ca74;
     --primary-font: "Limelight", Sans serif;
     --secondary-font: "Tinos", Cursive;
-
-
-
 }
 
 
@@ -20,9 +17,11 @@
     color: var(--primary-text);
 
 }
+
+/* Removes the padding on nav bar set by bootstrap*/
 #navbar {
-	margin:0 !important;
-	padding: 0px !important;
+    margin: 0 !important;
+    padding: 0px !important;
 }
 
 
@@ -44,20 +43,53 @@ body {
 
 h1 {
     color: var(--primary-text);
+
 }
 
-#footer {
+.about-us{
+    display: flex;
+    padding: 15 15 15 15;
+    margin-top: 20px;
+    justify-content: space-between;
+  align-items: center;
+}
+
+.footer {
     background-color: var(--primary-color);
-    padding-bottom: 3px;
-}
-
-#footer .social-links i {
     color: var(--primary-text);
-    padding: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    justify-content: space-between;
+    margin: 0 !important;
+    gap: 10px;
+    flex-wrap: wrap;
+    
+    align-items: baseline;
+}
+
+/* overides the link defauly color */
+a {
+    color: inherit;
+}
+
+.footer a :hover {
+    color: var(--secondary-text);
+}
+
+.footer .social-links i {
+    color: var(--primary-text);
+    padding: px;
 
 }
 
-#footer .social-links i:hover {
+
+.footer .social-links i:hover {
     color: var(--secondary-text);
 }
 
