@@ -18,20 +18,39 @@
 
 }
 
+
 /* Removes the padding on nav bar set by bootstrap*/
 #navbar {
     margin: 0 !important;
     padding: 0px !important;
 }
 
-
-
+p
+{
+    color: var(--primary-text);
+}
+.card{
+    background-color: var(--secondary-color);
+    border: none;
+    justify-content: center;
+    color: var(--primary-text);
+}
+.about-us-card{
+    padding: 15 15 15 15;
+    margin: auto; 
+   
+}
+.owner-photo{
+    max-width: 546px;
+    max-height: 409.5px;
+}
 
 h1,
 h2,
 h3 {
     font-family: var(--primary-font);
     color: var(--primary-text);
+    
 
 
 }
@@ -46,13 +65,7 @@ h1 {
 
 }
 
-.about-us{
-    display: flex;
-    padding: 15 15 15 15;
-    margin-top: 20px;
-    justify-content: space-between;
-  align-items: center;
-}
+
 
 .footer {
     background-color: var(--primary-color);
@@ -99,7 +112,7 @@ a {
 @media screen and (min-width: 576px) {
 
     /* increase font size in events table when screen size is large enough */
-    #events .table {
+    #about-us {
         font-size: 1rem;
     }
 
@@ -108,35 +121,38 @@ a {
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
 
-    /* Make all service cards the same height for consistency */
-    #events .card-body {
-        min-height: 191px;
+    
+    #about-us {
+        display: block;
+        justify-items: center;
+        
     }
 }
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-    /* Make all service cards the same height for consistency */
-    #events .card-body {
-        min-height: auto;
+    #about-u{
+        display: flex;
+        flex-wrap: wrap;
+        justify-items: center;
     }
+    
 }
 
 /* xl devices (large desktops, 1200px and up) */
 @media screen and (min-width: 1200px) {
 
-    /* make all service cards the same height for consistency */
-    #events .card-body {
-        min-height: 220px;
+    #about-us {
+        display: block;
+        justify-items: center;
     }
 }
-
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
 
-    /* make all service cards the same height for consistency */
-    #events .card-body {
-        min-height: 195px;
+    #about-us {
+        display: block;
+        justify-items: center;
     }
 }
