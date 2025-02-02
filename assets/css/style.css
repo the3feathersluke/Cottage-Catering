@@ -70,6 +70,10 @@ h1 {
     width: 100%;
     line-height: 1em;
 
+    border:solid 2px;
+    border-color: var(--secondary-color);
+    
+
 }
 #photos {
     line-height: 2;
@@ -117,7 +121,7 @@ a {
 /* Media queries */
 
 /* Small screens */
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 375px) {
 
     /* increase font size in events table when screen size is large enough */
     #about-us {
@@ -135,6 +139,7 @@ a {
        
         
 
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
