@@ -147,7 +147,7 @@ a {
 
     
     #about-us {
-        display: block;
+        display: flex
         justify-items: center;
         
     }
@@ -160,7 +160,7 @@ a {
 @media screen and (min-width: 992px) {
 
     #about-us{
-        display: block;
+        display: flex;
         justify-items: center;
     }
     #photos {
@@ -173,7 +173,7 @@ a {
 @media screen and (min-width: 1200px) {
 
     #about-us {
-        display: block;
+        display: flex;
         justify-items: center;
     }
 }
@@ -181,7 +181,7 @@ a {
 @media screen and (min-width: 1400px) {
 
     #about-us {
-        display: block;
+        display: flex;
         justify-items: center;
     }
 }
