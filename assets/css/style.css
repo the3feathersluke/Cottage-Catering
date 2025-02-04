@@ -81,6 +81,21 @@ h1 {
     column-gap: 0;
 
 }
+/* Events page*/
+#events-carousel{
+    display: flex;
+    max-width: 546px;
+    max-height: 409px;
+}
+.services-card{
+    background-color: var(--secondary-color);
+    border: none;
+    justify-content: center;
+    color: var(--primary-text);
+}
+.section {
+    padding-top: 4rem; /* prevent navbar overlap */
+}
 
 
 .footer {
@@ -143,17 +158,30 @@ a {
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px){
 
     
     #about-us {
         display: flex
-        justify-items: center;
+        justify-items:center;
         
     }
     #photos {
         column-count: 3;
     }
+
+.card {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#events-cards{
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
 }
 
 /* Large devices (small laptops, 992px and up) */
@@ -166,6 +194,7 @@ a {
     #photos {
         column-count: 4;
     }
+    
     
 }
 
