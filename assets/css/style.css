@@ -93,8 +93,10 @@ h1 {
     justify-content: center;
     color: var(--primary-text);
 }
-.section {
-    padding-top: 4rem; /* prevent navbar overlap */
+/* Testimonials Section*/
+#testimonials {
+    padding-top: 8rem; /* prevent navbar overlap */
+    padding-bottom: 3rem;
 }
 
 
@@ -161,11 +163,6 @@ a {
 @media screen and (min-width: 768px){
 
     
-    #about-us {
-        display: flex
-        justify-items:center;
-        
-    }
     #photos {
         column-count: 3;
     }
@@ -175,6 +172,11 @@ a {
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+#services {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    
+}
 #events-cards{
     display: flex;
     justify-items: center;
@@ -182,7 +184,21 @@ a {
     flex-wrap: wrap;
 
 }
+#testimonials-images *{
+    display: flex;
+    justify-items: center;
+    
+
 }
+.owner-photo {
+    padding: 20px 20px 20px 20px;
+   display: flex;
+
+    
+
+}
+}
+
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
@@ -190,7 +206,9 @@ a {
     #about-us{
         display: flex;
         justify-items: center;
+        padding: 10 10 10 10;
     }
+
     #photos {
         column-count: 4;
     }
@@ -204,6 +222,11 @@ a {
     #about-us {
         display: flex;
         justify-items: center;
+    }
+    #testimonials-image{
+        padding-top: 20px;
+        padding-bottom: 20px;
+    
     }
 }
 /* xxl devices (larger desktops, 1400px and up) */
