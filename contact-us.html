@@ -47,8 +47,43 @@
           </div>
         </div>
       </nav>
-      <h1>Contact Us</h1>
-      <p>Paragraph</p>
+      <main>
+      <div id="contact-us" class="col-12 col-xl-12 text-center text-xl-center container"></div>
+
+    <section id="conact-us">
+    
+      <form id="contact-us-form" method="" action="">
+
+        <h2><i class="fa-regular fa-paper-plane"></i> Contact Us</h2>
+        <label for="first-name">First Name</label>
+        <input type="text" name="first_name" id="first-name" class="text-input" required>
+        <br>
+        <label for="last-name">Last Name</label>
+        <input type="text" name="last_name" id="last-name" class="text-input" required>
+        <br>
+        <label for="email-address">Email Address</label>
+        <input type="email" name="email_address" id="email-address" class="text-input" required>
+        <br>
+        <label for="message" class="form-label message">Message</label>
+        <textarea class=" form-control text-input " rows="6" id="message" name="message" required></textarea>
+
+        <br>
+        <div class="radio-buttons">
+          <div><label for="weddings">Weddings</label>
+            <input type="radio" name="event-type" id="weddings" value="weddings" required checked></div>
+          <div><label for="private-hire">Private Hire</label>
+            <input type="radio" name="event-type" id="private-hire" value="private-hire" required checked></div>
+          <div><label for="dry-hire">Dry Hire</label>
+            <input type="radio" name="event-type" id="dry-hire" value="dry-hire" required checked></div>
+
+        </div>
+        <button type="submit" class="submit-button">Submit</button>
+      </form>
+  
+</div>
+
+  </section>
+</main>
       <footer class="mt-auto">
 
         <ul class="footer social-links">
