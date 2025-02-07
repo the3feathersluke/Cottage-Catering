@@ -25,22 +25,24 @@
     padding: 0px !important;
 }
 
-p
-{
+p {
     color: var(--primary-text);
 }
-.card{
+
+.card {
     background-color: var(--secondary-color);
     border: none;
     justify-content: center;
     color: var(--primary-text);
 }
-.about-us-card{
+
+.about-us-card {
     padding: 15 15 15 15;
-    margin: auto; 
-   
+    margin: auto;
+
 }
-.owner-photo{
+
+.owner-photo {
     max-width: 546px;
     max-height: 409.5px;
 }
@@ -50,15 +52,16 @@ h2,
 h3 {
     font-family: var(--primary-font);
     color: var(--primary-text);
-    
+    padding-top: 17px;
+
 
 
 }
 
 body {
-    
+
     background-color: var(--secondary-color);
-    padding-top: 110px;
+    padding-top: 93px;
 }
 
 h1 {
@@ -71,56 +74,64 @@ h1 {
     width: 100%;
     line-height: 1em;
 
-    border:solid 2px;
+    border: solid 2px;
     border-color: var(--secondary-color);
-    
+
 
 }
+
 #photos {
     line-height: 2;
     column-count: 2;
     column-gap: 0;
 
 }
+
 /* Events page*/
-#events-carousel{
+#events-carousel {
     display: flex;
     max-width: 546px;
     max-height: 409px;
 }
-.services-card{
+
+.services-card {
     background-color: var(--secondary-color);
     border: none;
     justify-content: center;
     color: var(--primary-text);
 }
+
 /* Testimonials Section*/
 #testimonials {
-    padding-top: 8rem; /* prevent navbar overlap */
+    padding-top: 8rem;
+    /* prevent navbar overlap */
     padding-bottom: 3rem;
 }
 
 /* Contact us section*/
 
-#contact-us{
+#contact-us {
     background-image: url(/assets/images/Cottage-image.jpg);
     background-size: cover;
     background-position: 100%;
-    padding:20% 10% 20% 10%;
+    padding: 20% 10% 20% 10%;
     flex-grow: 1;
-   
-   
-}
-#contact-us-form{
-    color:var(--primary-text);
-    background-color:var(--primary-color);
-    padding: 30px;
-    
-}
-#contact-us-form>h2 {
-color:var(--primary-text);
+
 
 }
+
+#contact-us-form {
+    color: var(--primary-text);
+    background-color: var(--primary-color);
+    padding: 30px;
+
+}
+
+#contact-us-form>h2 {
+    color: var(--primary-text);
+
+}
+
 .text-input {
     background-color: var(--secondary-color);
     color: var(--primary-text);
@@ -131,23 +142,30 @@ color:var(--primary-text);
     border-radius: 2px;
     padding: 0 5px;
 }
+
 .radio-buttons {
     width: 100%;
     display: flex;
     justify-content: space-between;
 }
+
 .submit-button {
     margin-top: 20px;
-    border-radius: 2px;
+    border-radius: 10px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color:var(--primary-text);
+    background-color: var(--primary-text);
     color: var(--secondary-color);
     display: flex;
     justify-items: center;
 }
-#text-box{
+
+#text-box {
     height: 178px;
+}
+.thank-you{
+    font-size: 1rem;
+    margin: 4% 4% 4% 4%;
 }
 
 .footer {
@@ -195,95 +213,122 @@ a {
     #about-us {
         font-size: 1rem;
     }
-    #contact-info{
+
+    #contact-info {
         display: none;
     }
-    .footer{
+
+    .footer {
         display: flex;
         justify-content: space-evenly;
     }
+
     #photos {
         column-count: 2;
-       
-        
 
-}
+
+
+    }
+    .footer-at-bottom {
+        position: relative;
+        bottom: 0;
+        width: 100%;
+    }
 }
 
 /* Medium devices (tablets, 768px and up) */
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) {
 
-    
+
     #photos {
         column-count: 3;
     }
 
-.card {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-#services {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    
-}
-#events-cards{
-    display: flex;
-    justify-items: center;
-    justify-content: space-between;
-    flex-wrap: wrap;
+    .card {
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+
+    #services {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+
+    }
+
+    #events-cards {
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    #testimonials-images * {
+        display: flex;
+        justify-items: center;
+
+
+    }
+
+    .owner-photo {
+        padding: 20px 20px 20px 20px;
+        display: flex;
+
+
+
+    }
+
+
+    #contact-us {
+        background-position: center;
+        position: relative;
+        max-width: 100vw;
+        max-height: 100vh;
+        background-size: cover;
+        background-position: 100%;
+        padding: 20% 10% 20% 10%;
+        flex-grow: 1;
+
+    }
+
+    #contact-us-form {
+        max-width: 400px;
+        position: absolute;
+        top: 150px;
+        left: 10%;
+
+
+
+
+
+    }
+
+    .text-input:hover {
+        border-color: var(--primary-text);
+    }
+
+    .submit-button:hover {
+        background-color: var(--secondary-text);
+        color: var(--primary-text);
+    }
+
+    /* pushes the footer down on medium screens*/
 
 }
-#testimonials-images *{
-    display: flex;
-    justify-items: center;
-    
 
-}
-.owner-photo {
-    padding: 20px 20px 20px 20px;
-   display: flex;
-
-    
-
-}
-
-#contact-us{
-    background-position: center;
-    position: relative;
-    max-width: 100vw;
-    max-height: 100vh;
-    background-size: cover;
-    background-position: 100%;
-    padding:20% 10% 20% 10%;
-    flex-grow: 1;
-   
-}
-#contact-us-form {
-    max-width: 400px;
+.footer-at-bottom {
     position: absolute;
-    top: 150px;
-    left: 10%;
-    
-
-    
-    
-}
-.text-input:hover{
-    border-color:var(--primary-text);
-}
-.submit-button:hover{
-    background-color:var(--secondary-text);
-    color: var(--primary-text);
+    bottom: 0;
+    width: 100%;
 }
 
-}
+
 
 /* Large devices (small laptops, 992px and up) */
 @media screen and (min-width: 992px) {
 
-    #about-us{
+    #about-us {
         display: flex;
         justify-items: center;
         padding: 10 10 10 10;
@@ -292,35 +337,42 @@ a {
     #photos {
         column-count: 4;
     }
-    
-    #contact-us{
+
+    #contact-us {
         background-position: center;
         position: relative;
         max-width: 150%;
-       
         background-size: cover;
         background-position: 100%;
-        padding:20% 10% 20% 10%;
+        padding: 20% 10% 20% 10%;
         flex-grow: 1;
     }
+
     #contact-us-form {
         max-width: 400px;
         position: absolute;
         top: 150px;
         left: 10%;
-        
-    
-        
-        
+
+
+
+
     }
-    .text-input:hover{
-        border-color:var(--primary-text);
+    .footer-at-bottom {
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
-    .submit-button:hover{
-        background-color:var(--secondary-text);
+
+    .text-input:hover {
+        border-color: var(--primary-text);
+    }
+
+    .submit-button:hover {
+        background-color: var(--secondary-text);
         color: var(--primary-text);
     }
-    
+
 }
 
 /* xl devices (large desktops, 1200px and up) */
@@ -330,17 +382,25 @@ a {
         display: flex;
         justify-items: center;
     }
-    #testimonials-image{
+
+    #testimonials-image {
         padding-top: 20px;
         padding-bottom: 20px;
-    
+
     }
+    
 }
+
 /* xxl devices (larger desktops, 1400px and up) */
 @media screen and (min-width: 1400px) {
 
     #about-us {
         display: flex;
         justify-items: center;
+    }
+    .footer-at-bottom {
+        position: relative;
+        bottom: 0;
+        width: 100%;
     }
 }
