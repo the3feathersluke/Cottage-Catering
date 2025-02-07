@@ -19,6 +19,7 @@
 }
 
 
+
 /* Removes the padding on nav bar set by bootstrap*/
 #navbar {
     margin: 0 !important;
@@ -217,6 +218,22 @@ a {
     #contact-info {
         display: none;
     }
+    #contact-us {
+        
+        padding: 15% 15% 16% 15%;
+       
+    
+    
+    }
+    #contact-us-form {
+        color: var(--primary-text);
+        background-color: var(--primary-color);
+        padding: 25px;
+    
+    }
+    #text-box {
+        height: 25px;
+    }
 
     .footer {
         display: flex;
@@ -230,7 +247,7 @@ a {
 
     }
     .footer-at-bottom {
-        position: relative;
+        position:fixed;
         bottom: 0;
         width: 100%;
     }
