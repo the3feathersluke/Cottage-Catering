@@ -56,6 +56,7 @@ h3 {
 }
 
 body {
+    
     background-color: var(--secondary-color);
     padding-top: 110px;
 }
@@ -145,7 +146,9 @@ color:var(--primary-text);
     display: flex;
     justify-items: center;
 }
-
+#text-box{
+    height: 178px;
+}
 
 .footer {
     background-color: var(--primary-color);
@@ -161,6 +164,7 @@ color:var(--primary-text);
     flex-wrap: wrap;
     font-size: 30px;
     align-items: baseline;
+
 }
 
 /* overides the link defauly color */
@@ -245,15 +249,26 @@ a {
 
 }
 
-#contact-us-form{
+#contact-us{
     background-position: center;
     position: relative;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-size: cover;
+    background-position: 100%;
+    padding:20% 10% 20% 10%;
+    flex-grow: 1;
+   
 }
 #contact-us-form {
     max-width: 400px;
     position: absolute;
     top: 150px;
     left: 10%;
+    
+
+    
+    
 }
 .text-input:hover{
     border-color:var(--primary-text);
@@ -278,7 +293,33 @@ a {
         column-count: 4;
     }
     
+    #contact-us{
+        background-position: center;
+        position: relative;
+        max-width: 150%;
+       
+        background-size: cover;
+        background-position: 100%;
+        padding:20% 10% 20% 10%;
+        flex-grow: 1;
+    }
+    #contact-us-form {
+        max-width: 400px;
+        position: absolute;
+        top: 150px;
+        left: 10%;
+        
     
+        
+        
+    }
+    .text-input:hover{
+        border-color:var(--primary-text);
+    }
+    .submit-button:hover{
+        background-color:var(--secondary-text);
+        color: var(--primary-text);
+    }
     
 }
 
