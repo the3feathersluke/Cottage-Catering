@@ -16,6 +16,12 @@ View Main Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.
 
 View Gallery Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.github.io/Cottage-Catering/gallery.html)
 
+View Contact us Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.github.io/Cottage-Catering/contact-us.html)
+
+View Success Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.github.io/Cottage-Catering/success-page.html?first_name=luke&last_name=crampton&email_address=the3feathers%40gmail.com&message=message%0D%0A&event-type=dry-hire)
+
+View 404 Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.github.io/Cottage-Catering/indesx.html)
+
 
 ## Table of Contents
 
