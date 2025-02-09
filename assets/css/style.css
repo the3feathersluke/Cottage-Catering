@@ -243,10 +243,8 @@ a {
     #photos {
         column-count: 2;
 
-
-
     }
-    .footer-at-bottom {
+    .footer-at-bottom *{
         position: relative;
         bottom: 0;
         width: 100%;
@@ -372,7 +370,7 @@ a {
         left: 10%;
     }
 
-    }
+    
 
     #contact-us-form {
         max-width: 400px;
