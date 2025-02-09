@@ -244,7 +244,7 @@ a {
         column-count: 2;
 
     }
-    .footer-at-bottom *{
+    .footer-at-bottom {
         position: relative;
         bottom: 0;
         width: 100%;
