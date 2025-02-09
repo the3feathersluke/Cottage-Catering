@@ -5,7 +5,7 @@ Cottage Catering & Events is a local, family-owned catering and event planning b
 
 As a company run by a friend of mine, I’m excited to be helping bring their vision online with this brand-new website. It’s designed to give you a glimpse into the exceptional services they offer, from delicious custom menus to seamless event coordination. Here, you’ll find everything you need to plan your next event with ease.
 
-![](image-1.png)
+![](https://file%2B.vscode-resource.vscode-cdn.net/Users/Luke/Documents/vscode-projects/Cottage-Catering/Cottage-Catering/assets/read-me-images/image-1.png?version%3D1739109725662)
 
 View the live site [here](https://the3feathersluke.github.io/Cottage-Catering/)
 
@@ -23,89 +23,77 @@ View Success Page [here](https://ui.dev/amiresponsive?url=https://the3featherslu
 View 404 Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.github.io/Cottage-Catering/indesx.html)
 
 
-## Table of Contents
+
 
 ## User Experience
 ### User Stories
-- User Goals
-- Site Owner Goals
+
+User Requirment 1
+
+Homepage
+
+
+- [ ] Eye-catching hero image showcasing beautifully presented food.
+- [ ]•	Tagline: “Welcome to Cottage Catering & Events.”
+- [ ]•	Brief introduction highlighting expertise in private event catering for weddings, parties, corporate                                                                
+                 events, and more.
+- [ ]•	Call-to-action button : “Contact Us.”
+- [ ] •	Story about the company’s origins and passion for catering.
+- [ ] •	Commitment to sustainability and local partnerships, if applicable.
+
+Business Owner Requirment 1 
+
+Events Page
+
+
+• Clear sections for each type of event (e.g., weddings, Private Hire and Dry Hire options ).
+
+• Information on past and upcoming events with pictures
+
+• contains Testimonials from past clients to build trust.
+
+User Requirment 2
+Gallery
+	
+
+- [ ] •	High-quality images of past events showcasing diverse catering styles and food presentation.
+
+Business Owner Requirment 2
+
+Contact Page
+	
+
+- [ ] •	Simple contact form asking for name, event type, contact email and any specific requirements.	
+
+Business Owner Requirment 3
+
+Social Media Integration
+
+- [ ] 	•	Social media icons (Facebook, Instagram, TikTok, etc.) in the footer for easy access.
+
+User Requirment 3
+
+Must be visible on all screen size types and responsive
 
 ## Design
 The site needs to be user friendly and easy to navigate while still providing enough information to end user, the site is responsive on all screen sizes. 
 
 ### Colour Scheme
+The color scheme was used from the colours of the existing business colours of sage green and cream these were then checked for visability using a contrast grid to ensure readability for the end user.
+![Contrast checker](<assets/read-me-images/Contrast Checker.png>)
 ### Typography
+the font was kept minamalsitic inline with the oweners requirements
 ### Imagery
-### Wireframes
-### Figma/Full color mockup if produced
-
-## Features
-
-### Feature title - e.g. Navigation
-Screenshot of implemented feature
-Description of the value this feature has for the users
-
-Repeat for each feature
-
-## Features to be Added
-In the future i would look to add a search section that will search for keywords accros the site so that users can easily navigte to a section they were looking for for example if a user was soley looking for information on wedinngs
-
-Another future development could be able to see a calendar of availability to ensure that the catering unit is avialable on a specific date.
-
-Another future development would be for users to add a review onto the site.
+imagery used was from existing photos owned by the company and used to showcase the services and events on offer
 
 
-## Testing
+------------------
 
-### Validation of Code
-Insert screenshots of HTML, CSS and any other code files being tested in the relevant code validator - CSS validator might not validate newer CSS syntax - be careful to read and fully understand why it is giving you an error.
-
-### Lighthouse
-You can perform a test of your website for performance, accessibility, best practices and SEO through the google chrome lighthouse test - it is in your Dev tools. Bear in mind that your internet connection speed plays a part in the performance figures obtained. Where it scores low, it will give you suggestions on how to improve the site - read the suggestions and think about how to implement them - it could be a good idea.
-Do this for both Desktop and Mobile.
-
-### Wave Webaim - accessibility testing
-You can test your site for accessibility through the wave.webaim site - it needs to be deployed in order for it to test it. Fix any errors that it gives
-
-### Manual Testing
-
-You need to perform, and document everything you did to manually test your site.
-At a minimum - you need to check every link on every page works as intended.
-So that is check every link in the nav bar (do this on every single page because its a link in a different file) and any other links that appear on your site.
-Test the responsiveness of the site - you can do this in the dev tools in responsive mode.
-You should also load the site once deployed on as many devices you have access to. What is different from one device to the next? why is it different?
-
-Test the user stories that you created earlier in the readme - did you satisfy the goal, how?
-
-To write up the tests you can use a table,
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here | <- duplicate this line for each line you need
-
-You should have tests for every section of every page.. individually.
-
-## Technologies Used
-
-Detail what technologies you used. So what code languages, what frameworks, libraries, what software did you use to develop the site - Balsamic for your wireframes, Figma for a mockup?
-
-## Deployment
-
-Detail how to clone the repository, how to fork the repository - how to run the site locally and how to deploy it.
-
-
-## Credits
-
-You need to credit where you got anything for your site from.. where are the images from, are they all from the same site? where did you get the content from, if you wrote it yourself, did you fact check anywhere? did you get code from anywhere? if so, it needs to be clearly marked in both the code and the readme.
-
-## Acknowledgements
-Any special acknowledgements you'd like to leave
-
-Back to top link to return to the top of the readme.
 ## Features 
 
 ### Site wide
 * Navigation Menu
-    * Contains links to the Home, Gallery and Contact pages and will be responsive on all devices.
+    * Contains links to the Home, Gallery, Events, Testimoniasls and Contact page and will be responsive on all devices.
     * This will allow users to easily navigate between the pages within the site on any size device. 
 
 ![Nav Menu](docs/readme_images/navigation_menu.JPG)
@@ -169,18 +157,9 @@ Back to top link to return to the top of the readme.
 ### Existing Features
 
 * Responsive design
-* Hidden interactive sections on adventure page
-* Responsive gallery with filtering
 * Contact form and success page
-* 3 Adventure trips and information
+* 404 page
 
-### Features Left to Implement
-
-* As a future enhancement, the contact form will be updated with javascript to send an email to Taco with the contact information.
-
-* Google map interaction to be added to the Adventures page instead of screen shots of the map.
-
-## Design
 
 ### Wireframes
 <br>
@@ -218,28 +197,15 @@ Gallery page
 <br><br><br><br>
 
 
-## Technologies
+## Features to be Added
+In the future i would look to add a search section that will search for keywords accros the site so that users can easily navigte to a section they were looking for for example if a user was soley looking for information on wedinngs
 
-* HTML
-    * The structure of the Website was developed using HTML as the main language.
-* CSS
-    * The Website was styled using custom CSS in an external file.
-* Visual Studio Code
-    * The website was developed using Visual Studio Code IDE
-* GitHub
-    * Source code is hosted on GitHub and delpoyed using Git Pages.
-* Git 
-    * Used to commit and push code during the development opf the Website
-* Font Awesome
-    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
-* Tinyjpg
-    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
-* Favicon.io
-    * favicon files were created at https://favicon.io/favicon-converter/ 
-* balsamiq
-    * wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+Another future development could be able to see a calendar of availability to ensure that the catering unit is avialable on a specific date.
 
+Another future development would be for users to add a review onto the site.
 
+------------
+## Testing
 ## Testing 
 
 ### Responsiveness
@@ -482,11 +448,59 @@ Behavior was as expected and my outlook application was opened ready to send an 
 ### Unfixed Bugs
 Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
 
-## Deployment
+
+### Validation of Code
+Insert screenshots of HTML, CSS and any other code files being tested in the relevant code validator - CSS validator might not validate newer CSS syntax - be careful to read and fully understand why it is giving you an error.
+
+### Lighthouse
+You can perform a test of your website for performance, accessibility, best practices and SEO through the google chrome lighthouse test - it is in your Dev tools. Bear in mind that your internet connection speed plays a part in the performance figures obtained. Where it scores low, it will give you suggestions on how to improve the site - read the suggestions and think about how to implement them - it could be a good idea.
+Do this for both Desktop and Mobile.
+
+### Wave Webaim - accessibility testing
+You can test your site for accessibility through the wave.webaim site - it needs to be deployed in order for it to test it. Fix any errors that it gives
+
+### Manual Testing
+
+You need to perform, and document everything you did to manually test your site.
+At a minimum - you need to check every link on every page works as intended.
+So that is check every link in the nav bar (do this on every single page because its a link in a different file) and any other links that appear on your site.
+Test the responsiveness of the site - you can do this in the dev tools in responsive mode.
+You should also load the site once deployed on as many devices you have access to. What is different from one device to the next? why is it different?
+
+Test the user stories that you created earlier in the readme - did you satisfy the goal, how?
+
+To write up the tests you can use a table,
+| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
+| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
+| enter details here | enter details here | enter details here | enter details here | enter details here | <- duplicate this line for each line you need
+
+You should have tests for every section of every page.. individually.
+-----------------
+
+## Technologies
+
+* HTML
+    * The structure of the Website was developed using HTML as the main language.
+* CSS
+    * The Website was styled using custom CSS in an external file.
+* Visual Studio Code
+    * The website was developed using Visual Studio Code IDE
+* GitHub
+    * Source code is hosted on GitHub and delpoyed using Git Pages.
+* Git 
+    * Used to commit and push code during the development opf the Website
+* Font Awesome
+    * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
+* Tinyjpg
+    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+* Favicon.io
+    * favicon files were created at https://favicon.io/favicon-converter/ 
+* balsamiq
+    * wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
 
 ### Version Control
 
-The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘tacos-travels’.
+The site was created using the Visual Studio code editor and pushed to github to the remote repository ‘cottage-catering’.
 
 The following git commands were used throughout development to push code to the remote repo:
 
@@ -505,34 +519,13 @@ The following git commands were used throughout development to push code to the 
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. 
 
-The live link can be found here - https://gareth-mcgirr.github.io/tacos-travels/ 
 
-### Clone the Repository Code Locally
-
-Navigate to the GitHub Repository you want to clone to use locally:
-
-- Click on the code drop down button
-- Click on HTTPS
-- Copy the repository link to the clipboard
-- Open your IDE of choice (git must be installed for the next steps)
-- Type git clone copied-git-url into the IDE terminal
-
-The project will now of been cloned on your local machine for use.
-
-## Credits 
-
-* [Accordion without javascript](https://supfort.com/pure-css-accordion-without-javascript)
-    * Code was used from this site to create the accordian effect on the adventures page sections for the hidden sections for each days travels. Styles were changed to suit styling on my Website.
-* [Youtube Gallery Filter Tutorial](https://www.youtube.com/watch?v=U-CujW5OlW0)
-    * Gallery page was created with inspiration from this video. I adapted code to use flexbox rather than css grid to make the page responsive on every device. 
-
+## Acknowledgements
+To my mentor matthew boddin, who was always on callto help with any snags 
 
 ### Content 
-
-All content with the exception of those listed in the Media section of this document was owned by Hair O'The Dog club members Rocket and Taco. Permission was granted from Rocket to use the images.
+ Permission was granted from the owner to use the images.
 
 ### Media
 
-Website Logo was created by my wife [Daisy McGirr](https://github.com/Daisy-McG) using Canva.
-
-Maps on the adventure page were from google maps timeline.
+Website Logo was created by the owener using Canva.
