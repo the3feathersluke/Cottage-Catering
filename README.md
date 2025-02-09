@@ -96,64 +96,71 @@ imagery used was from existing photos owned by the company and used to showcase 
     * Contains links to the Home, Gallery, Events, Testimoniasls and Contact page and will be responsive on all devices.
     * This will allow users to easily navigate between the pages within the site on any size device. 
 
-![Nav Menu](docs/readme_images/navigation_menu.JPG)
-* Footer
-    * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. The second part of the footer will contain contact information for 'Taco'.
-    * This will allow the user to follow 'Taco' on various social media where they can get more up to date information that may not be displayed on the website. The contact information will allow the user to contact 'Taco' directly.
+![Nav Menu](<assets/read-me-images/Navbar.png>)
 
-![Footer](docs/readme_images/footer.JPG)
+* Footer
+    * This will contain icons as links to social media websites that will open in new tabs. Icons will be accessible to the visually impaired who may be using a screen reader, by the use of aria labels. 
+    * This will allow the user to follow 'Cottage Catering' on various social media where they can get more up to date information that may not be displayed on the website. 
+
+![Footer](<assets/read-me-images/footer.png>)
 * Favicon
-    * A site wide favicon will be implemented with the Hair O' The Dog clubs emblem.
+    * A site wide favicon will be implemented with the Cottage Catering Logo.
     * This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.
 
-![Favicon](docs/readme_images/favicon.JPG)
+![Favicon](<assets/read-me-images/Favicon.png>)
 * 404 Page
     * A 404 page will be implemented and will display if a user navigates to a broken link.
-    * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button.
+    * The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need  of the browsers back button, this is done by having the nav bar still visable and having a dedicated home button
 
-![404](docs/readme_images/404_page.JPG)
+![404](<assets/read-me-images/404 page.png>)
 
 ### Landing Page
 * Landing page image
-    * This will be a collection of favourite images from some of 'Taco's Travels. Images will change on a timer. 
+    * This will be the welcome page that contains the about us section with a carousell of images of events and offering. Images will change on a timer. 
     * This will help to immediately show the user what the website is about and help to animate the page. 
 
-![Landing Page Image](docs/readme_images/landing_page_image.JPG)
-* Website information on 'Taco'
-    * Information about 'Taco' and the websites purpose including an image of 'Taco' on his travels.
+![Landing Page Image](<assets/read-me-images/home page.png>)
+* Website information on 'Cottage Catering'
+    * Information about 'Cottage Catering' and the websites purpose including an image of the owener and an about us section 
     * This information lets the user know what the site is about. 
 
-![Bio](docs/readme_images/about_me.JPG)
+![About Us](<assets/read-me-images/About us.png>)
 
 * Contact form
-    * A contact form will be implemented to allow users to contact 'Taco'. The form will consist of the following fields and attributes: 
+    * A contact form will be implemented to allow users to contact Cottage Catering and request info. The form will consist of the following fields and attributes: 
         * First Name (required, type=text)
         * Last Name (required, type=text)
         * Email (required, type=email)
         * Message (required, type=textarea)
-    * On successful submission of the contact form, the user will be navigated to contact.html displaying a success message.
-    * This will allow user to contact 'Taco' if they have any queiries about travel destinations, charity events, club information or maybe to join him on some of his travels. 
+    * On successful submission of the contact form, the user will be navigated to succcess-page.html displaying a success message.
+    * This will allow user to contact Cottage Catering  if they have any queiries about future events they would like catered for. 
 
-![Contact Form](docs/readme_images/contact_form.JPG)
+![Contact Form](<assets/read-me-images/form.png>)
 
-![Contact Form Received](docs/readme_images/contact_form_received.JPG)
+![Contact Form Received](<assets/read-me-images/succes page.png>)
+
 ### Gallery Page
 * Gallery
-    * The gallery will provide the user with photos of 'Taco's Motorcycle adventures from various trips and charity events. The gallery will be fully     responsive on all devices and allows the user to filter by categories provided in a sub navigation.
-    * This will allow users that are interested in 'Taco's Travels to filter items based on the category they wish to be displayed. As the gallery is responsive it will allow the user to view content from any device. 
+    * The gallery will provide the user with photos of what Cottage Catering offers and gives an insight into past events. The gallery will be fully  responsive on all devices 
+    
 
-![Gallery](docs/readme_images/gallery.JPG)
-### Adventures
-* Adventure Summary
-    * Sections containing 2 photos of the trip, a paragraph about the trip and a link to the gallery page to see more photos. 
-    * The sections will give the user an overview of the adventures that Taco has been on and the links will take the user to the gallery page where the user can view all the pictures that have been uplaoded for that trip.
+![Gallery](<assets/read-me-images/gallery.png>)
 
-![Adventure Summary](docs/readme_images/adventures_summary.JPG)
-* More details dropdown
-    * Hidden sections at the end of each Adventure Summary that will show a more detailed description of the trip which may include more details about longer trips and information about places visited along the way. 
-    * These section will be hidden by default so that user can only see the summaries on the page when loaded but the user will have ability with this feature to click and view more details at the end of the summary. This will allow user to easily scroll through the page and only view details of trips that they want to read more about. 
+### Events
+* Events Overview
+    * Sections containing type of events catered for and a list of past and upcomming events 
+    * The sections will give the user an overview of the services and events cottage catering has and can cater for
 
-![Details Dropdown](docs/readme_images/details_dropdown.JPG)
+![Events](<assets/read-me-images/events page.png>)
+
+### Testiomnals
+* Past customers testimonials 
+    * Section contains testimonials from satisfied customers
+    * The section will be on the events page with a dedicated link to this section in the nav bar 
+
+
+![Testimonials](<assets/read-me-images/tetimonials.png>)
+
 ### Existing Features
 
 * Responsive design
