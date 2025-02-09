@@ -1,10 +1,17 @@
 ## Introduction
 # Cottage Catering 
+
 Cottage Catering & Events is a local, family-owned catering and event planning business that prides itself on creating unforgettable experiences for every occasion. Whether you're hosting an intimate dinner, a large celebration, or a corporate gathering, Cottage Catering & Events offers personalized service and mouthwatering dishes that are sure to impress your guests.
 
 As a company run by a friend of mine, I’m excited to be helping bring their vision online with this brand-new website. It’s designed to give you a glimpse into the exceptional services they offer, from delicious custom menus to seamless event coordination. Here, you’ll find everything you need to plan your next event with ease.
 
- View the live site [here](https://the3feathersluke.github.io/Cottage-Catering/)
+![](image-1.png)
+
+View the live site [here](https://the3feathersluke.github.io/Cottage-Catering/)
+
+
+
+View Main Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.github.io/Cottage-Catering/)
 
 
 View Gallery Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.github.io/Cottage-Catering/gallery.html)

@@ -112,7 +112,7 @@ h1 {
 /* Contact us section*/
 
 #contact-us {
-    background-image: url(../assets/images/Cottage-image.jpg);
+    background-image: url("../images/Cottage-image.jpg");
     background-size: cover;
     background-position: 100%;
     padding: 20% 10% 20% 10%;
@@ -228,7 +228,7 @@ a {
     #contact-us-form {
         color: var(--primary-text);
         background-color: var(--primary-color);
-        padding: 25px;
+        padding: 20px;
     
     }
     #text-box {
@@ -367,7 +367,7 @@ a {
 
     #contact-us-form {
         max-width: 400px;
-        position: absolute;
+        position: relative;
         top: 150px;
         left: 10%;
 
