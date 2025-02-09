@@ -247,7 +247,7 @@ a {
 
     }
     .footer-at-bottom {
-        position:fixed;
+        position: relative;
         bottom: 0;
         width: 100%;
     }
@@ -358,7 +358,7 @@ a {
     #contact-us {
         background-position: center;
         position: relative;
-        max-width: 150%;
+        max-width: 100%;
         background-size: cover;
         background-position: 100%;
         padding: 20% 10% 20% 10%;
@@ -370,13 +370,19 @@ a {
         position: relative;
         top: 50px;
         left: 10%;
-
-
-
+    }
 
     }
-    .footer-at-bottom {
+
+    #contact-us-form {
+        max-width: 400px;
         position: relative;
+        top: 50px;
+        left: 10%;
+        
+    }
+    .footer-at-bottom {
+        position: absolute;
         bottom: 0;
         width: 100%;
     }
