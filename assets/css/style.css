@@ -245,7 +245,7 @@ a {
 
     }
     .footer-at-bottom {
-        position: relative;
+        position: absolute;
         bottom: 0;
         width: 100%;
     }
@@ -312,10 +312,6 @@ a {
         top: 50px;
         left: 10%;
         bottom:150px;
-
-
-
-
 
     }
 
