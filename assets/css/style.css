@@ -112,7 +112,7 @@ h1 {
 /* Contact us section*/
 
 #contact-us {
-    background-image: url(/assets/images/Cottage-image.jpg);
+    background-image: url(../assets/images/Cottage-image.jpg);
     background-size: cover;
     background-position: 100%;
     padding: 20% 10% 20% 10%;

@@ -1,15 +1,14 @@
+## Introduction
 # Cottage Catering 
 Cottage Catering & Events is a local, family-owned catering and event planning business that prides itself on creating unforgettable experiences for every occasion. Whether you're hosting an intimate dinner, a large celebration, or a corporate gathering, Cottage Catering & Events offers personalized service and mouthwatering dishes that are sure to impress your guests.
 
 As a company run by a friend of mine, I’m excited to be helping bring their vision online with this brand-new website. It’s designed to give you a glimpse into the exceptional services they offer, from delicious custom menus to seamless event coordination. Here, you’ll find everything you need to plan your next event with ease.
 
- View the live site [here](https://gareth-mcgirr.github.io/tacos-travels/)
+ View the live site [here](https://the3feathersluke.github.io/Cottage-Catering/)
 
 
-![image of site](link to image) - use an image from AmIResponsive that shows the site on multiple devices
+View Gallery Page [here](https://ui.dev/amiresponsive?url=https://the3feathersluke.github.io/Cottage-Catering/gallery.html)
 
-## Introduction
-What is the project about, why did you make it
 
 ## Table of Contents
 
@@ -19,6 +18,8 @@ What is the project about, why did you make it
 - Site Owner Goals
 
 ## Design
+The site needs to be user friendly and easy to navigate while still providing enough information to end user, the site is responsive on all screen sizes. 
+
 ### Colour Scheme
 ### Typography
 ### Imagery
@@ -34,7 +35,11 @@ Description of the value this feature has for the users
 Repeat for each feature
 
 ## Features to be Added
-Describe some additional features you could potentially add to the project that would increase user value - could be things linked to technologies not yet covered by the course but would be a benefit to the user for example, the ability to save an article, or add an article to the site, leave a review.
+In the future i would look to add a search section that will search for keywords accros the site so that users can easily navigte to a section they were looking for for example if a user was soley looking for information on wedinngs
+
+Another future development could be able to see a calendar of availability to ensure that the catering unit is avialable on a specific date.
+
+Another future development would be for users to add a review onto the site.
 
 
 ## Testing
