@@ -244,12 +244,13 @@ a {
         column-count: 2;
 
     }
+}
     .footer-at-bottom {
         position: absolute;
         bottom: 0;
         width: 100%;
     }
-}
+
 
 /* Medium devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) {
@@ -415,9 +416,5 @@ a {
         display: flex;
         justify-items: center;
     }
-    .footer-at-bottom {
-        position: relative;
-        bottom: 0;
-        width: 100%;
-    }
+    
 }
