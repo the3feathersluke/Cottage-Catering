@@ -183,6 +183,7 @@ h1 {
     flex-wrap: wrap;
     font-size: 30px;
     align-items: baseline;
+    margin-top: auto;
 
 }
 
@@ -245,11 +246,7 @@ a {
 
     }
 
-    .footer-at-bottom {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
+   
 }
 
 /* Medium devices (tablets, 768px and up) */
@@ -329,11 +326,7 @@ a {
 
 
 
-.footer-at-bottom {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-}
+
 }
 
 
@@ -376,11 +369,7 @@ a {
         left: 10%;
         
     }
-    .footer-at-bottom {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-    }
+    
 
     .text-input:hover {
         border-color: var(--primary-text);
