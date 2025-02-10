@@ -173,34 +173,57 @@ imagery used was from existing photos owned by the company and used to showcase 
 Home page
 <br><br>
 
-![Home Page large screen](docs/readme_images/home_wireframe.JPG)
+![Home Page Mobile](<assets/read-me-images/Main screen Mobile.png>)
 
-![Home Page small screen](docs/readme_images/home_mobile_wireframe.JPG)
+![Home Page Tablet](<assets/read-me-images/Main Screen Tablet.png>)
+
+![Home Page Desktop](<assets/read-me-images/Main Screen Desktop.png>)
+<br><br>
+Contact us Form
+<br><br>
+
+![Contact us Page Mobile](<assets/read-me-images/Contact Form Mobile.png>)
+
+![Contact us Page Tablet](<assets/read-me-images/Contact Form Tablet.png>)
+
+![Contact us Page Desktop](<assets/read-me-images/Contact Form Desktop.png>)
 <br><br>
 Contact form successful submission page.
 <br><br>
-![Contact form submission success](docs/readme_images/contact_wireframe.JPG)
 
-![Contact form submission success](docs/readme_images/contact_mobile_wireframe.JPG)
+![Success Page Mobile](<assets/read-me-images/Success Page Mobile.png>)
+
+![Success Page Tablet](<assets/read-me-images/Success Page Tablet.png>)
+
+![Success Page Desktop](<assets/read-me-images/Success Page Desktop.png>)
 
 
-Adventures page
+Events page
 <br><br>
-![Adventures page large screen](docs/readme_images/adventures_wireframe.JPG)
 
-![Adventures page small screen](docs/readme_images/adventures_mobile_wireframe.JPG)
+![Events Page Mobile](<assets/read-me-images/Events Page Mobile.png>)
+
+![Events Page Tablet](<assets/read-me-images/Evnets Page Tablet.png>)
+
+![Events Page Desktop](<assets/read-me-images/Events Page Desktop.png>)
 
 Gallery page
 <br><br>
-![Gallery page large screen](docs/readme_images/gallery_wireframe.JPG)
 
-![Gallery page small screen](docs/readme_images/gallery_mobile.JPG)
+![Gallery Page Mobile](<assets/read-me-images/Gallery Page Mobile.png>)
+
+![Gallery Page Tablet](<aassets/read-me-images/Gallery Page Tablet.png>)
+
+![Gallery Page Desktop](<assets/read-me-images/Gallery Page Desktop.png>)
 
 404 page
 <br><br>
-![Gallery page large screen](docs/readme_images/404_wireframe.JPG)
 
-![Gallery page small screen](docs/readme_images/404_mobile_wireframe.JPG)
+![404 Page Mobile](<assets/read-me-images/404 page Mobile.png>)
+
+![404 Page Tablet](<assets/read-me-images/404 page Tablet.pngg>)
+
+![404 Page Desktop](<assets/read-me-images/404 Page Desktop.png>)
 <br><br><br><br>
 
 
