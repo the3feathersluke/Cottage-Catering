@@ -212,7 +212,7 @@ Gallery page
 
 ![Gallery Page Mobile](<assets/read-me-images/Gallery Page Mobile.png>)
 
-![Gallery Page Tablet](<aassets/read-me-images/Gallery Page Tablet.png>)
+![Gallery Page Tablet](<assets/read-me-images/Gallery Page Tablet.png>)
 
 ![Gallery Page Desktop](<assets/read-me-images/Gallery Page Desktop.png>)
 
@@ -221,7 +221,7 @@ Gallery page
 
 ![404 Page Mobile](<assets/read-me-images/404 page Mobile.png>)
 
-![404 Page Tablet](<assets/read-me-images/404 page Tablet.pngg>)
+![404 Page Tablet](<assets/read-me-images/404 page Tablet.png>)
 
 ![404 Page Desktop](<assets/read-me-images/404 Page Desktop.png>)
 <br><br><br><br>
@@ -312,13 +312,18 @@ all links directed to correct pages and opened in new tab and had aria labels
 ### Lighthouse Testing
 <br>
 on lighthouse testing performance of main page, gallery page and events page all had low performance scores this was due to the image sizes reducded image sizes and improved performance greatly 
+<br>
 
 
-![Home](docs/testing/index_lighthouse.JPG)
+![Home Page](<assets/read-me-images/Home Page Lighthouse.png>)
 
-![Gallery](docs/testing/gallery_lighthouse.JPG)
+![Events Page](<assets/read-me-images/Events Page Lighthouse.png>)
 
-![Adventures](docs/testing/adventures_lighthouse.JPG)
+![Contact Us Page](<assets/read-me-images/Contact us Lighthouse.png>)
+
+![Success Page ](<assets/read-me-images/Success Page Lighthouse .png>)
+
+![404 Page ](<assets/read-me-images/404 page lighthouse.png>)
 
 ### Functional Testing
 
