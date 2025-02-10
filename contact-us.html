@@ -53,7 +53,7 @@
     <section id="contact-us">
       <div class="col-12 col-xl-12 text-center text-xl-center container"></div>
     
-      <form id="contact-us-form" method="" action="success-page.html" action="mailto:info@cottage-cattering.co.uk">
+      <form id="contact-us-form" method="post" action="success-page.html" action="mailto:info@cottage-cattering.co.uk">
 
         <h2><i class="fa-regular fa-paper-plane"></i> Contact Us</h2>
         <label for="first-name">First Name</label>
@@ -65,13 +65,13 @@
         <label for="email-address">Email Address</label>
         <input type="email" name="email_address" id="email-address" class="text-input" required>
         <br>
-        <label for="message" class="form-label message">Message</label>
-        <textarea id="text-box" class=" form-control text-input " rows="6" id="message" name="message" required></textarea>
+        <label for="text-box" class="form-label message">Message</label>
+        <textarea id="text-box" class=" form-control text-input " rows="6"  name="message" required></textarea>
 
         <br>
         <div class="radio-buttons">
-          <label for="Event Type" class="form-label">Event Type</label>
-          <div><label for="weddings">Weddings</label>
+          <label for="Event-Type" id="event-type" class="form-label">Event Type</label>
+          <div><label for="weddings">Wedding</label>
             <input type="radio" name="event-type" id="weddings" value="weddings" required checked></div>
           <div><label for="private-hire">Private Hire</label>
             <input type="radio" name="event-type" id="private-hire" value="private-hire" required checked></div>

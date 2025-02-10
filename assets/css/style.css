@@ -38,7 +38,7 @@ p {
 }
 
 .about-us-card {
-    padding: 15 15 15 15;
+    
     margin: auto;
 
 }
@@ -336,7 +336,7 @@ a {
     #about-us {
         display: flex;
         justify-items: center;
-        padding: 10 10 10 10;
+       
     }
 
     #photos {

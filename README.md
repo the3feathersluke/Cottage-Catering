@@ -314,14 +314,32 @@ all links directed to correct pages and opened in new tab and had aria labels
 on lighthouse testing performance of main page, gallery page and events page all had low performance scores this was due to the image sizes reducded image sizes and improved performance greatly 
 <br>
 
+<br>
+Home Page
+<br><br>
 
 ![Home Page](<assets/read-me-images/Home Page Lighthouse.png>)
 
+<br>
+Events Page
+<br>
+
 ![Events Page](<assets/read-me-images/Events Page Lighthouse.png>)
 
+<br>
+Contact-Us Page
+<br>
+
 ![Contact Us Page](<assets/read-me-images/Contact us Lighthouse.png>)
+<br>
+Success Page
+<br>
 
 ![Success Page ](<assets/read-me-images/Success Page Lighthouse .png>)
+
+<br>
+404 Page
+<br>
 
 ![404 Page ](<assets/read-me-images/404 page lighthouse.png>)
 
@@ -331,45 +349,46 @@ on lighthouse testing performance of main page, gallery page and events page all
 
 Testing was performed to ensure all navigation links on the respective pages, navigated to the correct pages as per design. This was done by clicking on the navigation links on each page.
 
-| Navigation Link | Page to Load    |
-| --------------- | --------------- |
-| Home            | index.html      |
-| Aventures       | adventures.html |
-| Gallery         | gallery.html    |
+| Navigation Link | Page to Load                 |
+| --------------- | ---------------              |
+| Home            | index.html                   |
+| Events          | events.html                  |
+| Testimonials    | events.html#Testimonials     |
+| Gallery         | gallery.html                 |
 
 Links on all pages navigated to the correct pages as exptected.
 
 **Form Testing**
 
-The form on the home page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
+The form on the contact us page was tested to ensure it functioned as expected when correct data was input and when incorrect data was input. The following test scenarios were covered:
 
 _Scenario One - Correct Inputs_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Scroll down to the form and input the following data:
+1. Navigate to [Cottage Catering -Contact us Page ](https://the3feathersluke.github.io/Cottage-Catering/contact-us.html)
+2. input the following data:
    - First Name: John
    - Last Name: Doe
    - Email: doe.john@test.com
    - Comment: This is a test.
 3. Click Submit
-4. User should be redirected to contact.html confirmation page
+4. User should be redirected to success.html confirmation page
 
 Expected:
 
-Form submits with no warnings or errors and user is redirected to contact.html confirmation page.
+Form submits with no warnings or errors and user is redirected to success.html confirmation page.
 
 Actual:
 
-Website behaved as expected with no errors or warnings and redirected to contact.html.
+Website behaved as expected with no errors or warnings and redirected to success.html.
 
 _Scenario Two - Missing Required Field First Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Scroll down to the form and input the following data:
+1. Navigate to [Cottage Catering -Contact us Page ](https://the3feathersluke.github.io/Cottage-Catering/contact-us.html)
+2. input the following data:
    - First Name:
    - Last Name: Doe
    - Email: doe.john@test.com
@@ -388,8 +407,8 @@ _Scenario Three - Missing Required Field Last Name_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Scroll down to the form and input the following data:
+1. Navigate to [Cottage Catering -Contact us Page ](https://the3feathersluke.github.io/Cottage-Catering/contact-us.html)
+2. input the following data:
    - First Name:John
    - Last Name:
    - Email: doe.john@test.com
@@ -408,8 +427,8 @@ _Scenario Four - Missing Required Field Email_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Scroll down to the form and input the following data:
+1. Navigate to [Cottage Catering -Contact us Page ](https://the3feathersluke.github.io/Cottage-Catering/contact-us.html)
+2. input the following data:
    - First Name:John
    - Last Name: Doe
    - Email:
@@ -428,8 +447,8 @@ _Scenario Six - Incorrect email format_
 
 Steps to test:
 
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Scroll down to the form and input the following data:
+1. Navigate to [Cottage Catering -Contact us Page ](https://the3feathersluke.github.io/Cottage-Catering/contact-us.html)
+2. input the following data:
    - First Name:John
    - Last Name: Doe
    - Email: doe.johntest.com
@@ -450,89 +469,30 @@ Testing was performed on the Font Awesome Social Media icons in the footer to en
 
 Each item opened a new tab when clicked as expected and correct hover color was present.
 
-**Footer Contact Information**
-
-Testing was performed on the phone number in the contact information section of the footer to ensure behaviour was as expected.
-
-_Steps to test Telephone Number_
-
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the phone number in the footer (01 123 456 789)
-
-Expected:
-
-A window is opened asking which device you would like to call from.
-
-Actual:
-
-Behavior was as expected and the window presented me with the following option to call:
-
-- Oukitel Mobile Phone
-
-_Steps to test Email Link_
-
-1. Navigate to [Tacos Travels - Home Page](https://gareth-mcgirr.github.io/tacos-travels/index.html)
-2. Click the email address in the footer (taco@gmail.com)
-
-Expected:
-
-A windows popup is displayed asking what application you would like to send a mail from or your default email application is opened.
-
-Actual:
-
-Behavior was as expected and my outlook application was opened ready to send an email to the target address.
-
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org)
+  - following errors were returned when passing through the official [W3C validator](https://validator.w3.org)
 
-![Contact HTML Validator Results](docs/testing/contact_validator.JPG)
+  Bad value assets/images/hero image.jpeg for attribute src on element img: Illegal character in path segment: space is not allowed.
+From line 69, column 15; to line 69, column 105
 
-![Avdentures HTML Validator Results](docs/testing/adventures_validator.JPG)
+    Fix images were renamed with no spaces   
 
-![Home HTML Validator Results](docs/testing/home_validator.JPG)
+![Home HTML Validator Results](<assets/read-me-images/Home Page Validator.png>)
 
-![Gallery HTML Validator Results](docs/testing/gallery_validator.JPG)
+![Gallery HTML Validator Results](<assets/read-me-images/Gallery Validator.png>)
 
-![404 HTML Validator Results](docs/testing/404_validator.JPG)
+![Success HTML Validator Results](<assets/read-me-images/Success Page.png>)
 
 - CSS
   - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org)
 
-![CSS Validator Results](docs/testing/css_validator.JPG)
+![CSS Validator Results](<assets/read-me-images/CSS Validatore.png>)
 
 ### Unfixed Bugs
-Responsiveness of the website worked on all devices, screen sizes and orientation with the exception of landscape orientation on mozilla firefox. I was unable to resolve this bug on time but will address in a future release.
+Responsiveness of the website worked on all devices, screen sizes and orientation 
 
-
-### Validation of Code
-Insert screenshots of HTML, CSS and any other code files being tested in the relevant code validator - CSS validator might not validate newer CSS syntax - be careful to read and fully understand why it is giving you an error.
-
-### Lighthouse
-You can perform a test of your website for performance, accessibility, best practices and SEO through the google chrome lighthouse test - it is in your Dev tools. Bear in mind that your internet connection speed plays a part in the performance figures obtained. Where it scores low, it will give you suggestions on how to improve the site - read the suggestions and think about how to implement them - it could be a good idea.
-Do this for both Desktop and Mobile.
-
-### Wave Webaim - accessibility testing
-You can test your site for accessibility through the wave.webaim site - it needs to be deployed in order for it to test it. Fix any errors that it gives
-
-### Manual Testing
-
-You need to perform, and document everything you did to manually test your site.
-At a minimum - you need to check every link on every page works as intended.
-So that is check every link in the nav bar (do this on every single page because its a link in a different file) and any other links that appear on your site.
-Test the responsiveness of the site - you can do this in the dev tools in responsive mode.
-You should also load the site once deployed on as many devices you have access to. What is different from one device to the next? why is it different?
-
-Test the user stories that you created earlier in the readme - did you satisfy the goal, how?
-
-To write up the tests you can use a table,
-| Feature being tested | Expected Outcome | Testing Performed | Actual Outcome | Result (Pass or fail) |
-| -------------------- | ---------------- | ----------------- | -------------- | --------------------- |
-| enter details here | enter details here | enter details here | enter details here | enter details here | <- duplicate this line for each line you need
-
-You should have tests for every section of every page.. individually.
------------------
 
 ## Technologies
 
@@ -585,4 +545,4 @@ To my mentor matthew boddin, who was always on callto help with any snags
 
 ### Media
 
-Website Logo was created by the owener using Canva.
+Website Logo was created by the owner.
