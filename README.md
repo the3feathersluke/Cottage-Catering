@@ -508,12 +508,15 @@ Responsiveness of the website worked on all devices, screen sizes and orientatio
     * Used to commit and push code during the development opf the Website
 * Font Awesome
     * Icons obtained from https://fontawesome.com/ were used as the Social media links in the footer section. 
-* Tinyjpg
-    * https://tinyjpg.com/ was used to reduce the size of the images used throughout the website
+* Bootsrap
+    * Bootstrap was used to apply templates to cards and forms throughout the project from http://bootstrap.com.
 * Favicon.io
     * favicon files were created at https://favicon.io/favicon-converter/ 
 * balsamiq
     * wireframes were created using balsamiq from https://balsamiq.com/wireframes/desktop/#
+* Adobe
+    * Adobe was used to edit the companys logo to a logo with a trasnparent background as the logo given by the owner did not have a transparent background http://adobe.com.
+
 
 ### Version Control
 
@@ -535,10 +538,11 @@ The following git commands were used throughout development to push code to the 
   - From the source section drop-down menu, select the Branch: main
   - Click 'Save'
   - A live link will be displayed in a green banner when published successfully. 
+  - deployments were made using the folwoing command in the terminal python3 -m http.server --bind 127.0.0.1
 
 
 ## Acknowledgements
-To my mentor matthew boddin, who was always on callto help with any snags 
+To my mentor matthew Boddin, who was always on call to help with any snags 
 
 ### Content 
  Permission was granted from the owner to use the images.
