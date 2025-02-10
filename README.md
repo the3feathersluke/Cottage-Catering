@@ -310,6 +310,9 @@ all links directed to correct pages and opened in new tab and had aria labels
 ![Links in footer](<assets/read-me-images/Links Testing.png>)
 <br>
 ### Lighthouse Testing
+<br>
+on lighthouse testing performance of main page, gallery page and events page all had low performance scores this was due to the image sizes reducded image sizes and improved performance greatly 
+
 
 ![Home](docs/testing/index_lighthouse.JPG)
 
