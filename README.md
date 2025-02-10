@@ -235,7 +235,7 @@ Another future development could be able to see a calendar of availability to en
 Another future development would be for users to add a review onto the site.
 
 ------------
-## Testing
+
 ## Testing 
 
 ### Responsiveness
@@ -244,7 +244,7 @@ All pages were tested to ensure responsiveness on screen sizes from 320px and up
 
 Steps to test:
 
-1. Open browser and navigate to [Tacos Travels](https://gareth-mcgirr.github.io/tacos-travels/)
+1. Open browser and navigate to [Cottage Catering and Events](https://the3feathersluke.github.io/Cottage-Catering/)
 2. Open the developer tools (right click and inspect)
 3. Set to responsive and decrease width to 320px
 4. Set the zoom to 50%
@@ -258,13 +258,14 @@ No elements overlap.
 
 Actual:
 
-Website behaved as expected with the exception of switching to landscape view in Mozilla Firefox. Details can be found in [Unfixed Bugs](#Unfixed-Bugs)
+Website behaved as expected 
+
 
 Website was also opened on the following devices and no responsive issues were seen:
 
-- Oukitel C21 Pro
-- TCL 30 Pro
-- iPhone SE
+- iphone 12
+- ipad pro
+- iPhone 16pro
 - Samsung Galaxy Tablet
 
 ### Accessibility
@@ -281,15 +282,33 @@ Testing was focused to ensure the following criteria were met:
 - HTML page lang attribute has been set
 - Aria properties have been implemented correctly
 - WCAG 2.1 Coding best practices being followed
+<br>
+![Wave Testing](<assets/read-me-images/Wave Testing.png>)
 
 Manual tests were also performed to ensure the website was accessible as possible and an accessibility issue was identified.
 
-Issue #1: Use of hidden check boxes and labels for the gallery filter and accordion on the gallery page were not accessible via the keyboard due to the property display: none;
+Issue #1: alternative text on images was flagged up as repeating on the buffet pages in the gallery page
+<br>
+Fix : Fixed by renaming the alternative text on the images to be more descriptive of the image 
+<br>
+![Issue 1](<assets/read-me-images/Issue 1.png>)
+<br>
 
-Fix: I could not find a way to fix this issue with html and css alone so a tabindex of 0 was added to allow the label to be tabbed to and an onkeypress event to target and click the correct checkbox was implemented. Javascript code was taken from this [Mozilla Doc](https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/click)
+Issue #2: missing form lablel on the radio buttons on the contact form 
+<br>
+FIX : added a lable to the radio buttons of event type
+<br>
+![Issue 2](<assets/read-me-images/issue2.png>)
+<br>
 
-Issue #2: After keyboard controls were implemented, while testing the site with windows 'Narrator' screenreader, it was not clearly known what the purpose of the labels/checkboxes were. An aria-label label was added to the labels for screen readers to alert them that the labels were clickable and what their purpose was.
+Issue #3: Redundant link in the nav bar of the home button
+<br>
+FIX : this was due to the cottage catering logo also directing to home page
 
+all links directed to correct pages and opened in new tab and had aria labels 
+<br>
+![Links in footer](<assets/read-me-images/Links Testing.png>)
+<br>
 ### Lighthouse Testing
 
 ![Home](docs/testing/index_lighthouse.JPG)
