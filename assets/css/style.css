@@ -235,6 +235,12 @@ a {
     #text-box {
         height: 25px;
     }
+    .radio-buttons {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
 
     .footer {
         display: flex;
